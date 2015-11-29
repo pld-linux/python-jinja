@@ -9,6 +9,7 @@ Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/J/Jinja/Jinja-%{version}.tar.gz
 # Source0-md5:	1235a005ade00b213800ff1e798c0241
 URL:		http://jinja.pocoo.org/1/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-docutils >= 0.5
 BuildRequires:	python-devel
 %pyrequires_eq	python-modules
